@@ -18,7 +18,11 @@ if a1 == "Y" and b1 == "Y":
 if a1 == "Y" and c1 == "Y":
     if a2 >= 37 and c2 >= 37:
         print("E")
+    else:
+        print("N")
 
 if b1 == "Y" and c1 == "Y":
     if b2 >= 37 and c2 >= 37:
         print("E")
+    else:
+        print("N")
