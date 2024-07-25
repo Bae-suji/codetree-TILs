@@ -12,4 +12,5 @@ if a == b == c:
     e = 1
 else:
     e = 0
+    
 print(d,e)
