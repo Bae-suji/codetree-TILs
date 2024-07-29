@@ -1,12 +1,14 @@
 n = int(input())
-cnt = 'A'
+cnt = ord('A')
 
 for i in range(n):
-    for _ in range(i):
+    # 공백 출력
+    for j in range(i):
         print(" ", end=" ")
-    
-    for _ in range(n - i):
-        print(cnt, end=" ")
-        cnt = chr(ord(cnt) + 1)
+
+    # 알파벳 출력
+    for j in range(n - i):
+        print(chr(cnt), end=" ")
+        cnt += 1
     
     print()
