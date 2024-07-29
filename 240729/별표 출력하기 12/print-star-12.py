@@ -5,5 +5,5 @@ for i in range(n):
 		if i == 0:
 			print("*", end=" ")
 		elif j % 2 != 0:
-			print(" ", end=" ")
+			print("*", end=" ")
 	print()
