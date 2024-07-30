@@ -1,8 +1,8 @@
 m = int(input())
-sum_val = 0
 
 for _ in range(m):
     n = int(input())
+    sum_val = 0
 
     while n != 1:
         if n % 2 == 0:
