@@ -12,4 +12,4 @@ for elem in num:
 
 ave_val = sum_val/cnt
 
-print(f"{sum_val}, {ave_val}")
+print(f"{sum_val} {ave_val:.1f}")
