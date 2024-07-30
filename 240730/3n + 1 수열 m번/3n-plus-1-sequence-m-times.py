@@ -7,10 +7,10 @@ for _ in range(m):
     while n != 1:
         if n % 2 == 0:
             n //= 2
-            sum_val += 1
-
+            
         else: 
             n = n * 3 + 1 
-            sum_val += 1
+
+        sum_val += 1
              
 print(sum_val)
