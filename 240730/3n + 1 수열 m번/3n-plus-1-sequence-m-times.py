@@ -13,4 +13,4 @@ for _ in range(m):
 
         sum_val += 1
              
-print(sum_val)
+    print(sum_val)
