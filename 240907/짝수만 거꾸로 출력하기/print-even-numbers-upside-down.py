@@ -1,11 +1,10 @@
 n = int(input())
 
-for i in range(n):
-	
-	arr = list(map(int, input().split()))
+# n개의 정수를 리스트로 입력
+arr = list(map(int, input().split()))
 
-	arr[::-1]
-    
+for num in reversed(arr):
+	
 	if arr[i] % 2 == 0:
 
 		print(arr[i])
