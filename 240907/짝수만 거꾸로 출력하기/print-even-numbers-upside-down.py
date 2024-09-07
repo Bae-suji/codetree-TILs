@@ -5,6 +5,6 @@ arr = list(map(int, input().split()))
 
 for num in reversed(arr):
 	
-	if arr[i] % 2 == 0:
+	if num % 2 == 0:
 
-		print(arr[i])
+		print(num)
