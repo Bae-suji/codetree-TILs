@@ -4,21 +4,20 @@ count_B = 0
 count_C = 0
 count_D = 0
 
-# 위급상황을 체크할 카운트 변수
-urgent_count = 0
+
 
 # 입력을 받아서 처리합니다.
 for _ in range(3):
-    symptoms, temperature = input().split()
-    temperature = int(temperature)
+    s, t = input().split()
+    t = int(t)
     
-    if symptoms == 'Y':
-        if temperature >= 37:
+    if s == 'Y':
+        if t >= 37:
             count_A += 1
         else:
             count_C += 1
     else:
-        if temperature >= 37:
+        if t >= 37:
             count_B += 1
         else:
             count_D += 1
